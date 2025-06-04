@@ -1,0 +1,109 @@
+/* ÉSTILOS PARA FALECONOSCO.HTML */
+.faleConosco-Titulo {
+    margin-top: 60px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: #000;
+}
+.faleConosco-SubTit {
+    margin-top: 50px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    font-weight: normal;
+    color: #333;
+}
+.faleConosco-descr {
+    margin-top: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    font-size: 19px;
+    color: #000;
+}
+.faleConosco-itensCont {
+    max-width: 550px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    color: #333;
+    line-height: 0.9;
+    text-align: justify;
+}
+.faleConosco-form-container {
+    flex: 1;
+    padding: 20px; /* Aumenta o padding para maior espaçamento */
+    background-color: #fff;
+    max-width: 500px; /* Limita a largura máxima do formulário */
+    margin: 0 auto; /* Centraliza o formulário horizontalmente */
+}
+.faleConosco-form {
+    display: flex;
+    flex-direction: column; /* Organiza os elementos em coluna */
+}
+.faleConosco-form .faleConosco-form-group {
+    margin-bottom: 40px; /* Espaçamento entre os campos do formulário */
+}
+.faleConosco-form label {
+    
+    display: block; /* Faz o rótulo ocupar toda a largura disponível */
+    font-weight: none; /* Torna o texto do rótulo em negrito */
+    margin: 5px;
+    margin-bottom: 10px; /* Espaçamento abaixo do rótulo */
+}
+.faleConosco-form input, .faleConosco-form textarea {
+    width: 100%; /* Faz o campo ocupar toda a largura disponível */
+    padding: 8px; /* Adiciona espaçamento interno nos campos */
+    border: 1px solid #000; /* Adiciona bordas a todas as partes do campo */
+    border-top: none; /* Remove a borda superior */
+    border-left: 1px solid; /* Remove a borda esquerda (se desejado, remova essa linha se quiser a borda esquerda) */
+    border-right: 1px solid; /* Remove a borda direita (se desejado, remova essa linha se quiser a borda direita) */
+    border-bottom: 1px solid; /* Adiciona uma borda inferior */
+    border-radius: 0; /* Remove qualquer arredondamento dos cantos */
+}
+.faleConosco-form button {
+    background-color: #666666; /* Cor de fundo azul */
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff; /* Cor do texto do botão */
+    cursor: pointer; /* Cursor do mouse muda para pointer (mão) */
+    border: none; /* Remove a borda padrão do botão */
+    padding: 10px 20px; /* Adiciona espaçamento interno no botão */
+    border-radius: 0px; /* Arredonda os cantos do botão */
+    transition: background-color 0.3s; /* Transição suave de 0.3 segundos para a cor de fundo */
+}
+.faleConosco-form button:hover {
+    background-color: #000; /* Altera a cor de fundo para um azul mais escuro quando em hover */
+}
+
+
+
+/* Estilo para a mensagem de sucesso do Contato */
+.success-message {
+    text-align: center;
+    background: #d4edda; /* Cor de fundo da mensagem de sucesso */
+    padding: 20px;
+    border-radius: 8px;
+    color: #155724; /* Cor do texto da mensagem de sucesso */
+}
+
+/* Estilo do botão de WhatsApp flutuante com ícone */
+.whatsapp-button-container {
+    position: fixed;
+    top: 80px; /* Ajuste para ficar abaixo da navbar */
+    left: 40px;
+    z-index: 1000;
+}
+.whatsapp-button-container img {
+    width: 260px; /* Ajuste conforme necessário */
+    height: 90px; /* Ajuste conforme necessário */
+    transition: transform 0.3s ease;
+}
+  
+  .whatsapp-button-container img:hover {
+    transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+  }
+  
+  

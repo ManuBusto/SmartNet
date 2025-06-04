@@ -1,0 +1,33 @@
+.sobreNos-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centraliza horizontalmente */
+  justify-content: center; /* Centraliza verticalmente */
+  text-align: center;
+  background-color: #f2e0f7;
+  padding: 20px;
+  width: 80%;
+  margin: 0 auto; /* Centraliza o container na tela */
+}
+
+.sobreNos-title {
+  margin: 40px 0; /* Aplica margem superior e inferior */
+  text-align: center;
+  font-family: Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal; /* Melhor uso de 'normal' ao invés de 'initial' */
+  color: #000;
+}
+
+  
+.sobreNos-texto {
+  margin: 0 auto;
+  text-align: justify ;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 30px;
+  margin: 15px 0;
+  color: #333;
+}

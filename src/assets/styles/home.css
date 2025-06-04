@@ -1,0 +1,90 @@
+/* Estilo geral para a página Home */
+.home-img1 {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  background-color: #000000;
+}
+
+.home-container2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Três colunas */
+  gap: 20px; /* Espaçamento entre os itens */
+  padding: 20px;
+  background-color: #F2E0F7;
+}
+
+.home-itensCont2 {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6); /* Sombras amarelas */
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.home-itensCont2:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.6);
+}
+
+.home-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 10px 0;
+  color: #333;
+}
+
+.home-itensCont2 img {
+  width: 200px;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.home-itensCont2 p {
+  margin-top: 25px;
+  margin-bottom: 50px;
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 1024px) {
+  .home-container2 {
+    grid-template-columns: repeat(2, 1fr); /* Duas colunas em telas médias */
+  }
+}
+
+@media (max-width: 768px) {
+  .home-container2 {
+    grid-template-columns: 1fr; /* Uma coluna em telas pequenas */
+  }
+
+  .home-title {
+    font-size: 1.2rem;
+  }
+
+  .home-itensCont2 img {
+    width: 80px;
+  }
+}
+/* Estilo do botão de WhatsApp flutuante com ícone */
+.whatsapp-button-orcamento {
+  position: fixed;
+  top: 80px; /* Ajuste para ficar abaixo da navbar */
+  left: 40px;
+  z-index: 1000;
+}
+.whatsapp-button-orcamento img {
+  width: 260px; /* Ajuste conforme necessário */
+  height: 90px; /* Ajuste conforme necessário */
+  transition: transform 0.3s ease;
+}
+
+.whatsapp-button-orcamento img:hover {
+  transform: scale(1.1); /* Aumenta o tamanho ao passar o mouse */
+}
+

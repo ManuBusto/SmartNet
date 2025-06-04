@@ -1,0 +1,14 @@
+  * {
+    margin: 0; /* Define margem zero para todos os elementos */
+    padding: 0; /* Define padding zero para todos os elementos */
+    box-sizing: border-box; /* Mantém o tamanho total dos elementos, incluindo padding e borda */
+}
+
+html, body {
+    height: 100%; /* Define a altura de 100% para o HTML e o corpo */
+    font-family: Arial, sans-serif; /* Define a fonte para todo o documento */
+    background-color: #F2E0F7; /* Define a cor de fundo para o HTML e o corpo */
+    color: #333; /* pode usar o #888888 Define a cor do texto para o HTML e o corpo */
+    margin: 0; /* Remove a margem padrão do body */
+    padding: 0; /* Remove o padding padrão do body */
+}

@@ -1,0 +1,70 @@
+/* CSS para o modal de cookies */
+.cookie-modal-overlay {
+  position: fixed;
+  bottom: 0; /* Fixar o modal na parte inferior da tela */
+  left: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.7); /* Um fundo semitransparente */
+  z-index: 1001; /* Garantir que o modal fique sobre os outros elementos */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/* Container do modal de cookies */
+.cookie-modal-container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Estilo do título */
+.cookie-modal-container h3 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+/* Estilo do parágrafo */
+.cookie-modal-container p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+/* Estilo dos botões */
+.cookie-modal-container button {
+  padding: 10px 20px;
+  margin: 5px;
+  font-size: 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* Garante que os botões tenham o mesmo tamanho */
+  text-align: center;
+}
+
+/* Estilo do primeiro botão (aceitar cookies) */
+.cookie-modal-container button:first-child {
+  background-color: #4CAF50;
+  color: white;
+}
+
+/* Estilo do segundo botão (rejeitar cookies) */
+.cookie-modal-container button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+/* Efeito de hover nos botões */
+.cookie-modal-container button:hover {
+  opacity: 0.8;
+}

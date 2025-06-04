@@ -1,0 +1,122 @@
+/* Estilos para Cadastro */
+.body {
+    color: #000;
+}
+.cadastro-descr {
+    margin-top: 3px;
+    margin-bottom: 5px;
+    text-align: justify;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
+.cadastro-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    padding: 20px;
+}
+.cadastro-itensCont1 {
+    width: 100%;       /* Garante que o contêiner ocupe toda a largura disponível */
+    height: 100%;      /* Faz o contêiner ocupar 100% da altura disponível (ou defina uma altura específica) */
+    display: flex;     /* Opcional: usa flexbox para centralizar o conteúdo dentro da div */
+    justify-content: center;  /* Opcional: centraliza a imagem horizontalmente */
+    align-items: center;     /* Opcional: centraliza a imagem verticalmente */
+}
+
+.cadastro-itensCont1 img {
+    width: 100%;       /* A imagem ocupa toda a largura do contêiner */
+    height: 100%;      /* A imagem ocupa toda a altura do contêiner */
+    object-fit: contain; /* A imagem será ajustada para caber dentro do contêiner sem cortar */
+    justify-content: center;  /* Opcional: centraliza a imagem horizontalmente */
+    align-items: center;     /* Opcional: centraliza a imagem verticalmente */
+}
+
+.cadastro-itensCont3 {
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+    font-weight: bold;            /* Define a altura da div para 100% da altura da tela */
+}
+.cadastro-entreAqui {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+
+.cadastro-itensCont2 {
+    max-width: 550px;
+    margin: 0 auto;
+    font-family: 'Arial', sans-serif;
+    font-size: 13px;
+    color: #333;
+    line-height: 0.9;
+    text-align: justify;
+    align-items: center;
+}
+.cadastro-Titulo {
+    margin: 40px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 40px;
+    font-weight: normal;
+    color: #000;
+}
+
+.cadastro-form-container {
+    flex: 1;
+    padding: 20px;
+    background-color: #fff;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.cadastro-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.cadastro-form-group {
+    margin-bottom: 10px;
+}
+
+.cadastro-form label {
+    display: block; /* Faz o rótulo ocupar toda a largura disponível */
+    font-weight: none; /* Torna o texto do rótulo em negrito */
+    margin: 9px;
+    margin-bottom: 4px; /* Espaçamento abaixo do rótulo */
+}
+.cadastro-form input, .cadastro-form textarea {
+    width: 100%; /* Faz o campo ocupar toda a largura disponível */
+    padding: 6px; /* Adiciona espaçamento interno nos campos */
+    border: 1px solid #000; /* Adiciona bordas a todas as partes do campo */
+    border-top: none; /* Remove a borda superior */
+    border-left: 1px solid; /* Remove a borda esquerda (se desejado, remova essa linha se quiser a borda esquerda) */
+    border-right: 1px solid; /* Remove a borda direita (se desejado, remova essa linha se quiser a borda direita) */
+    border-bottom: 1px solid; /* Adiciona uma borda inferior */
+    border-radius: 0; /* Remove qualquer arredondamento dos cantos */
+}
+
+.cadastro-form button {
+    background-color: #666;
+    font-size: 17px;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    margin-top: 9px;
+    padding: 10px 20px;
+    border-radius: 0;
+    transition: background-color 0.3s;
+}
+
+.cadastro-form button:hover {
+    background-color: #000;
+}
+
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
