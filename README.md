@@ -28,9 +28,5 @@ Esta aplicação apresenta uma interface intuitiva e responsiva com:
 
 ---
 
-## Como rodar o projeto
+Este projeto faz parte do meu portfólio e demonstra habilidades em desenvolvimento front-end React, criação de layouts responsivos, integração com serviços externos (WhatsApp) e boas práticas na organização do código.
 
-1. Clone este repositório:  
-   ```bash
-   git clone <URL_DO_REPOSITORIO>
-   cd netsmart
