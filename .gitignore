@@ -29,3 +29,12 @@ yarn-error.log*
 *.gif
 *.svg
 *.webp
+
+
+# Ignorar arquivos de imagem
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.webp
